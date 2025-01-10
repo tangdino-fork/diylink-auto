@@ -23,5 +23,5 @@ def login_diylink_with_cf(email, password):
         return False, f"登录失败: {str(e)}"
 
 # 调用登录函数
-success, message = login_diylink_with_cf("your_email@example.com", "your_password")
+success, message = login_diylink_with_cf("tdl180501@gmail.com", "Tang180501,,")
 print(success, message)
