@@ -3,6 +3,7 @@ name: diylink Login
 on:
   schedule:
     - cron: '0 0 */10 * *'
+  workflow_dispatch:
 
 jobs:
   login:
